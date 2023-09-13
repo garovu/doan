@@ -1,0 +1,38 @@
+
+-       Chương 1: Lý thuyết
+	-       1.1 Lý thuyết về Microservices
+		-       1.1.1 Microservices là gì
+		-       1.1.2 Tại sao lại là Microservices?
+		-       1.1.3 Vận dụng CI/CD
+	-       1.2 Lý thuyết về Cloud
+		-       1.2.1 Cloud là gì?
+		-       1.2.2 Tại sao lại là Cloud?
+		-       1.2.3 Về Google Cloud Platform
+		-       1.2.4 Google Cloud Platform cơ bản
+	-       1.3: Lý thuyết về Kubernetes
+		-       1.3.1 Containerization là gì?
+		-       1.3.2 Kubernetes là gì
+		-       1.3.3 Kubernetes cơ bản
+-       Chương 2: Phân tích thiết kế
+-       2.1 Thiết kế ứng dụng
+		-       2.1.1 Yêu cầu ứng dụng quyên góp cộng đồng
+		-       2.1.2 Xác định yêu cầu thiết kế
+		-       2.1.3 Phân tích lựa chọn công nghệ lỗi
+		-       2.1.4 Những công nghệ tích hợp
+	-       2.2 Phân tích mô hình microservices
+		-       2.2.1 Thiết kế mô hình microservices
+		-       2.2.2 Thiết kế mô hình CI/CD
+		-       2.2.3 Cách mô hình microservices vận hành
+		-       2.2.4 Đánh giá mô hình
+	-       2.3 Triển khai ứng dụng trên Cloud
+		-       2.3.1 Quy trình triển khai
+		-       2.3.2 Vấn đề về scalability
+		-       2.3.2 Vấn đề về high availability
+		-       2.3.3 Vấn đề về security
+		-       2.3.4 Những vấn đề khác
+-       Chương 3: Kết quả đề tài
+-       3.1 Kết quả thiết kế, triển khai, vận hành ứng dụng
+-       3.2. Đánh giá hiệu năng và chi phí
+	-       3.2.1 Báo cáo hiệu năng
+	-       3.2.2 Báo cáo chi phí vận hành
+	-       3.2.3 So sánh và đánh giá
