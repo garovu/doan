@@ -1,0 +1,6 @@
+{
+  "hide-card-count": false,
+  "show-relative-date": true,
+  "date-trigger": "@",
+  "time-trigger": "@@"
+}

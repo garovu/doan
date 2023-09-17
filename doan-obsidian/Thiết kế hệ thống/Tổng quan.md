@@ -11,7 +11,7 @@
 |--|--|--|
 |Homepage | overview & OAuth |Next.js|
 |User Landing Pages|statics-site generator|Next.js|
-|User service|management portal for user|Node.js|
+|User service|management portal for user|Next.js|
 |Payment|deposit & withdraw|Python|
 |Balance| manage transition |Python|
 |Database| store transition data| Postgres|
