@@ -6,11 +6,12 @@
 - Poulton, N. (2023). _The Kubernetes Book, 2023 Edition_. Lean Publishing.
 - Sullivan, D. (2023). _Google Cloud Certified Associate Cloud Engineer Study Guide, Second Edition_. John Wiley & Sons.
 
-
-
-
-
-
-
 #### Microservices Project
+- https://github.com/GoogleCloudPlatform/avocano
 - https://github.com/GoogleCloudPlatform/microservices-demo
+- https://github.com/GoogleCloudPlatform/bank-of-anthos
+
+##### Other Guideline
+- https://cloud.google.com/architecture/application-development/ecommerce-serverless
+- https://github.com/vercel/next.js/tree/canary/examples/with-docker
+- https://thenewstack.io/agile-management-how-to-manage-microservices-with-your-team/
