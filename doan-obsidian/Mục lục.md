@@ -8,38 +8,39 @@ Dựa trên [[Tên đề tài |mô tả về đề tài]]
 	-  1.1 Lý thuyết về Microservices
 		-  1.1.1 Microservices là gì?
 		-  1.1.2 Đặc điểm của Microservices
-		-  1.1.3 Tại sao lại sử dụng Microservices?
-		-  1.1.4 Giao tiếp giữa các microservices
+		-  1.1.3 Ưu điểm của Microservices
+		-  1.1.4 Giao tiếp giữa các Microservice
 		-  1.1.5 Triển khai ứng dụng Microservices
 	-  1.2 Lý thuyết về điện toán đám mây
-		-  1.2.1 Điện toán đám mây là gì?
+		-  1.2.1 Tổng quan về điện toán đám đám mây
 		-  1.2.2 Một số khái niệm cơ bản về điện toán đám mây
-		-  1.2.3 Lợi ích của điện toán đám mây?
+		-  1.2.3 Lợi ích của điện toán đám mây
 		-  1.2.4 Tổng quan về Google Cloud Platform
 		-  1.2.5 Một số dịch vụ phổ biến của Google Cloud Platform
 		-  1.2.6 Lựa chọn dịch vụ điện toán đám mây cho ứng dụng microservices
-	-  1.3 Một số công nghệ khác
+	-  1.3 Mô hình phát triển phần mềm
 		-  1.3.1 Mô hình phát triền phần mềm scrum và aglie
-		-  1.3.2  Tổng quan về CI/CD
+		-  1.3.2 Tổng quan về CI/CD
+	- 1.4 Công nghệ phát triển website
 		-  1.3.3 Tổng quan về SSG, SSR, CSR và ISR
 		-  1.3.4 Một số công nghệ khác sử dụng trong đề tài
 -  Chương 2: Phân tích yêu cầu và thiết kế hệ thống
 	-  2.1 Phân tích yêu cầu ứng dụng
 		-  2.1.1 Tổng quan về ứng dụng quyên góp cộng đồng
-		-  2.1.2 Yêu cầu về tính năng (Use Requirements) %%use-case diagram%%
+		-  2.1.2 Yêu cầu về tính năng (Use Requirements) %%use-case diagram & activity diagram%% 
 		-  2.1.3 Yêu cầu về công nghệ (Technique Requirements)
 		-  2.1.4 Phân tích lựa chọn công nghệ phù hợp %% (so sánh và lựa chọn tối ưu - liệt kê chi tiết) %%
-	-  2.2 Thiết kế mô hình microservices
-		-  2.2.1 Thiết kế mô hình microservices
-		-  2.2.2 Thiết kế mô hình CI/CD %% Github action %%
-		-  2.2.3 Thiết kế cơ sở dữ liệu %% Entity Relationship Diagrams %%
-		-  2.2.4 Cách mô hình microservices vận hành %% Sequence diagram %%
-	-  2.3 Triển khai ứng dụng trên Google Cloud Platform
-		-  2.3.1 Quy trình triển khai và vận hành
-		-  2.3.2 Vấn đề về scalability
-		-  2.3.2 Vấn đề về high availability
-		-  2.3.3 Vấn đề về chi phí
-		-  2.3.4 Những vấn đề khác (security, quản trị, phát triển)
+	- 2.2 Thân tích yêu cầu triển khai 
+		-  2.2.1 Quy trình triển khai và vận hành
+		-  2.2.2 Yêu cầu về t scalability
+		-  2.2.2 Vấn đề về high availability
+		-  2.2.3 Vấn đề về chi phí
+		-  2.2.4 Những vấn đề khác (security, quản trị, phát triển)
+	-  2.3 Thiết kế mô hình ứng dụng quyên góp tiền và mô hình CI/CD
+		-  2.3.1 Thiết kế mô hình microservices
+		-  2.3.2 Thiết kế mô hình CI/CD %% Github action %%
+		-  2.3.3 Thiết kế cơ sở dữ liệu %% Entity Relationship Diagrams %%
+		-  2.3.4 Cách mô hình microservices vận hành %% Sequence diagram %%
 -  Chương 3: Kết quả đề tài
 -  3.1 Kết quả thiết kế, triển khai, vận hành ứng dụng
 -  3.2 Đánh giá hiệu năng và chi phí

@@ -16,3 +16,18 @@
 - Deadline: 20/9/2023 - gửi file vào MS Teams.
 - Hoàn thành phần lý thuyết trước (quyển quan trọng hơn phần mềm)
 - Phân tích thiết kế (nên gần xong)
+
+---
+### Time and meeting
+- Deadline: 2 tháng - 26/11/2023 (nên xong trước cuối tháng 10)
+- Ngày: 1h30 - 22/9/2023 (offline)
+### Note
+- Tiêu đề không đặt dạng hỏi chấm
+- Bỏ từ khái niệm
+### Report
+- Tiến độ dự án: Planing
+- Lên Use cases chi tiết
+### Task
+- Deadline: 20/9/2023 - gửi file vào MS Teams.
+- Hoàn thành phần lý thuyết trước (quyển quan trọng hơn phần mềm)
+- Phân tích thiết kế (nên gần xong)

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6717a3bdfaee6e8",
+            "id": "bfa13e875f8c4ecc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,24 @@
             }
           },
           {
-            "id": "c83a6817def20f4d",
+            "id": "8798cf6bd050e5b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mục lục.md",
+                "file": "Thiết kế hệ thống/Tổng quan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e73dcf3c2fc50aed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Đặc tả dự án.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mục lục.md",
+                "file": "Thiết kế hệ thống/Tổng quan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mục lục.md",
+                "file": "Thiết kế hệ thống/Tổng quan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mục lục.md"
+                "file": "Thiết kế hệ thống/Tổng quan.md"
               }
             }
           },
@@ -169,36 +181,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c83a6817def20f4d",
+  "active": "8798cf6bd050e5b1",
   "lastOpenFiles": [
-    "Cơ sở lý thuyết/Phụ lục hình ảnh.md",
+    "Cơ sở lý thuyết/Chương 2 - Phân tích yêu cầu và thiết kế hệ thống.md",
     "Cơ sở lý thuyết/Chương 1 - Cơ sở lý thuyết.md",
-    "Project/Project Kanban.md",
     "Đặc tả dự án.md",
+    "Mục lục.md",
+    "Project/Project Kanban.md",
     "Thông tin chung.md",
     "Thiết kế hệ thống/Tổng quan.md",
-    "Thiết kế hệ thống/Chi tiết.md",
+    "Tên đề tài.md",
+    "Cơ sở lý thuyết/Phụ lục hình ảnh.md",
+    "Cơ sở lý thuyết/Phụ lục thuật ngữ.md",
     "Project/Report Kanban.md",
+    "Thiết kế hệ thống/Chi tiết.md",
+    "Tổng hợp tài liệu tham khảo.md",
+    "Untitled.md",
+    "Untitled",
     "Cơ sở lý thuyết/Chương 1 - image/Cloud Computing Layers.png",
     "Cơ sở lý thuyết/image/CI-CD pipeline of monolith and microservices.png.md",
     "Cơ sở lý thuyết/Chương 1 - image/Independent Deployability.png",
     "Cơ sở lý thuyết/Chương 1 - image/Independent Deployability.png",
     "Cơ sở lý thuyết/Chương 1 - image/Alignment of Architecture and Organization.png",
     "Cơ sở lý thuyết/Chương 1 - image/Scrum Process.png",
-    "Mục lục.md",
     "Cơ sở lý thuyết/image",
     "Cơ sở lý thuyết/Chương 1 - image/Request-response, Event-driven and Common data.png",
     "Cơ sở lý thuyết/Chương 1 - image/Scrum process.png",
     "Cơ sở lý thuyết/Chương 1 - image/Size of microservices systems.png",
     "Cơ sở lý thuyết/Chương 1 - image/Modeled Around a Business Domain.png",
     "Cơ sở lý thuyết/Chương 1 - image/Request-response - Event-driven - Common data.png",
-    "Cơ sở lý thuyết/Phụ lục thuật ngữ.md",
     "Cơ sở lý thuyết/image/Cloud services model.png.md",
-    "Tổng hợp tài liệu tham khảo.md",
     "Pasted image 20230918100026.png.md",
-    "Tên đề tài.md",
     "Cơ sở lý thuyết/Chương 1 - image",
-    "Untitled.md",
     "Cơ sở lý thuyết/Chương 1",
     "1.1 Lý thuyết về Microservices.md",
     "Project",

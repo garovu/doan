@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## To-write
 
-- [ ] Chương 2
+- [ ] Chương 2<br>@{2023-10-22}
 - [ ] Chương 3
 
 
