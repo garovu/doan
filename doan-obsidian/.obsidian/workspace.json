@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thiết kế hệ thống/Tổng quan.md",
+                "file": "Thiết kế hệ thống/Chi tiết.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thiết kế hệ thống/Tổng quan.md",
+                "file": "Thiết kế hệ thống/Chi tiết.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thiết kế hệ thống/Tổng quan.md",
+                "file": "Thiết kế hệ thống/Chi tiết.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thiết kế hệ thống/Tổng quan.md"
+                "file": "Thiết kế hệ thống/Chi tiết.md"
               }
             }
           },
@@ -181,20 +181,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8798cf6bd050e5b1",
+  "active": "e1042bd599c36146",
   "lastOpenFiles": [
-    "Cơ sở lý thuyết/Chương 2 - Phân tích yêu cầu và thiết kế hệ thống.md",
-    "Cơ sở lý thuyết/Chương 1 - Cơ sở lý thuyết.md",
+    "Project/Project Kanban.md",
+    "Project/Report Kanban.md",
+    "Thiết kế hệ thống/Tổng quan.md",
+    "Thiết kế hệ thống/Chi tiết.md",
     "Đặc tả dự án.md",
     "Mục lục.md",
-    "Project/Project Kanban.md",
+    "Cơ sở lý thuyết/Chương 2 - Phân tích yêu cầu và thiết kế hệ thống.md",
+    "Cơ sở lý thuyết/Chương 1 - Cơ sở lý thuyết.md",
     "Thông tin chung.md",
-    "Thiết kế hệ thống/Tổng quan.md",
     "Tên đề tài.md",
     "Cơ sở lý thuyết/Phụ lục hình ảnh.md",
     "Cơ sở lý thuyết/Phụ lục thuật ngữ.md",
-    "Project/Report Kanban.md",
-    "Thiết kế hệ thống/Chi tiết.md",
     "Tổng hợp tài liệu tham khảo.md",
     "Untitled.md",
     "Untitled",
