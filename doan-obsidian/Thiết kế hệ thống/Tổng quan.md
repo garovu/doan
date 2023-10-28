@@ -13,14 +13,20 @@ flowchart TD
 	subgraph inside
 	    U(User service) -- write --> G[Google Firestore]
 	    L(User pages) -- read-only --- G
-	    U ---> API(Application API)
-	    API--> D[Database]
-	    L -- donate --> API
-	    U -- info --> API
+	    B--> D[Database]
+	    L -- donate --> P(Payment)
+	    U -- info --> B(Balance)
     end
     subgraph outside
-	    API -- using --- M(Momo API)
+	    P-- using --- M(Momo API)
 	    %% H -- mail --- E(Mailgun) %%
     end
 
 ```
+
+
+Communication of microservices: RESTful API
+
+Develop Environment | Test Environment | Production Environment
+--|--|--
+Localhost | Docker | Google cloud platform

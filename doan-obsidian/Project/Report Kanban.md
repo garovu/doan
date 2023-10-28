@@ -6,12 +6,12 @@ kanban-plugin: basic
 
 ## To-write
 
-- [ ] Chương 2<br>@{2023-10-22}
 - [ ] Chương 3
 
 
 ## Draft
 
+- [ ] Chương 2<br>@{2023-10-30}
 
 
 ## Checking
