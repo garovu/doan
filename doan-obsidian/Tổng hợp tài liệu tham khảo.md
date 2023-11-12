@@ -15,3 +15,15 @@
 - https://cloud.google.com/architecture/application-development/ecommerce-serverless
 - https://github.com/vercel/next.js/tree/canary/examples/with-docker
 - https://thenewstack.io/agile-management-how-to-manage-microservices-with-your-team/
+- https://colab.research.google.com/github/GoogleCloudPlatform/cloud-sql-python-connector/blob/main/samples/notebooks/postgres_python_connector.ipynb#scrollTo=D3xMRsBl3Ihl
+- https://www.youtube.com/watch?v=dKGB3d2XXiE&t=
+- https://github.com/GoogleCloudPlatform/python-docs-samples/tree/main/cloud-sql/postgres/sqlalchemy
+
+```
+gcloud config set project resolute-casing-403214
+
+gcloud builds submit --tag gcr.io/resolute-casing-403214/api-server
+
+gcloud run deploy --image gcr.io/resolute-casing-403214/api-server
+
+```

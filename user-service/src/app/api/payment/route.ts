@@ -13,8 +13,10 @@ export async function GET(request: Request) {
   // 'payWtithATM' - pay with ATM
   // 'captureWallet' - pay with momo QR
   let requestType: string = requestParams.split("&")[1].split("=")[1];
+  let receiver: string = requestParams.split("&")[2].split("=")[1];
 
   // Add ?amount=&requestType= to the payment URL
+  paymentUrl.searchParams.set("to", receiver);
   paymentUrl.searchParams.set("amount", amount);
   paymentUrl.searchParams.set("requestType", requestType);
 

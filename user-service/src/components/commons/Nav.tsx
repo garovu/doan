@@ -6,15 +6,16 @@ import { signOut } from "next-auth/react";
 import LoginForm from "./LoginForm";
 import { usePathname } from "next/navigation";
 
-
 export interface NavProps {
-    balance: Number,
+    balance: number,
+    username: string,
     session: any,
 }
 
-export default function Nav({balance, session }: NavProps) {
+export default function Nav({username, balance, session }: NavProps) {
+  
   const pathname = usePathname();
-  let user = session?.user;
+
   let buttonBack: any;
   if (pathname === "/") {
     buttonBack = (
@@ -36,12 +37,12 @@ export default function Nav({balance, session }: NavProps) {
     );
   }
 
-  if (session) {
+  if (session && pathname !== '/createusername') {
     return (
       <div className="flex">
         <ModeToggle />
         {buttonBack}
-        <p>Signed in as {user?.name || "anonymous"}</p>
+        <p>Signed in as @{username || "anonymous"}</p>
         <p> - </p>
         <p>{balance.toString()} VND</p>
         <Button variant="secondary" onClick={() => signOut()}>

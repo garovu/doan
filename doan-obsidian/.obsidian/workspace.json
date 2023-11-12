@@ -25,19 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thiết kế hệ thống/Database.md",
+                "file": "Thiết kế hệ thống/Overview.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "006ac33cf841c734",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
               }
             }
           },
@@ -47,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Đặc tả dự án.md",
+                "file": "Thiết kế hệ thống/Database.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,23 +181,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8798cf6bd050e5b1",
+  "active": "e1042bd599c36146",
   "lastOpenFiles": [
+    "Thiết kế hệ thống/Overview.md",
+    "Thiết kế hệ thống/API-server.md",
     "Thiết kế hệ thống/Nextjs breakout.md",
     "Thiết kế hệ thống/Database.md",
-    "Thiết kế hệ thống/Tổng quan.md",
+    "Đặc tả dự án.md",
     "Thông tin chung.md",
     "Mục lục.md",
-    "Đặc tả dự án.md",
-    "Project/Report Kanban.md",
+    "Tên đề tài.md",
+    "Tổng hợp tài liệu tham khảo.md",
     "Project/Project Kanban.md",
+    "Project/Report Kanban.md",
     "Untitled.md",
     "Cơ sở lý thuyết/Chương 1 - Cơ sở lý thuyết.md",
     "Cơ sở lý thuyết/Chương 2 - Phân tích yêu cầu và thiết kế hệ thống.md",
-    "Tên đề tài.md",
     "Cơ sở lý thuyết/Phụ lục hình ảnh.md",
     "Cơ sở lý thuyết/Phụ lục thuật ngữ.md",
-    "Tổng hợp tài liệu tham khảo.md",
     "Untitled",
     "Cơ sở lý thuyết/Chương 1 - image/Cloud Computing Layers.png",
     "Cơ sở lý thuyết/image/CI-CD pipeline of monolith and microservices.png.md",

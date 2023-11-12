@@ -2,18 +2,9 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
-import {
-  collection,
-  doc,
-  getDocs,
-  query,
-  setDoc,
-  updateDoc,
-  where,
-} from "firebase/firestore";
-import { db, usersClRef } from "@/components/commons/Firebase";
 import { useSession } from "next-auth/react";
-import Link from "next/link";
+import addNewUser from "@/lib/addNewUser";
+import { useRouter } from "next/navigation";
 
 export interface AddUserFormProps {
   usernameList: string[];
@@ -26,6 +17,7 @@ let description = (
 export default function AddUserForm({ usernameList }: AddUserFormProps) {
   const [username, setUsername] = useState("");
   const { data: session, status } = useSession();
+  const router = useRouter()
 
   // check valid username
   let checkIsValid = (e: any) => {
@@ -49,19 +41,6 @@ export default function AddUserForm({ usernameList }: AddUserFormProps) {
     }
   };
 
-  // add new username
-  async function addNewUser(userEmail: string, userName: string) {
-    const q = query(usersClRef, where("email", "==", userEmail));
-    let docID: string = "";
-    const querySnapshot = await getDocs(q);
-    querySnapshot.forEach((doc) => {
-      docID = doc.id;
-    });
-
-    const userRef = doc(db, "users", docID);
-    await setDoc(userRef, { username: userName }, { merge: true });
-  }
-
   return (
     <>
       <h1>Choose new username for your account.</h1>
@@ -72,14 +51,23 @@ export default function AddUserForm({ usernameList }: AddUserFormProps) {
           value={username}
           onChange={(e) => checkIsValid(e.target.value)}
         />
-        <Link href="/">
+
           <Button
             type="submit"
-            onClick={() => addNewUser(session?.user?.email || "", username)}
+            onClick={() => {
+              addNewUser(
+                session?.user?.email || "fake@mail.com",
+                username || "joe",
+                session?.user?.name || "john joe"
+              );
+              setTimeout(() => {
+                router.refresh();
+            }, 500);
+            }}
           >
             Next
           </Button>
-        </Link>
+        
       </div>
       {description}
     </>

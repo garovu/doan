@@ -14,7 +14,7 @@ kanban-plugin: basic
 - [ ] #2 Deploy Nextjs in Firebase
 - [ ] #2.1 CRUD to firestore<br>@error to much read
 - [ ] #3 Code App API<br>- [ ] Balance manage<br>- [x] Payment manage
-- [ ] #3.1 Design SQL database<br>- [ ] design SQL digram
+- [ ] #3.1 Design SQL database<br>- [x] design SQL digram<br>- [ ] create database<br>- [ ] connect database
 - [ ] #3.x Deploy API in GCP
 
 

@@ -1,29 +1,11 @@
-## Firestore collections
-|Collections|Usage|
-|--|--|
-|userInfo|use for store O-auth infomations|
-|userSetting|use for store personalization user's setting|
-##### settings
-|fields|type|usage|
-|--|--|--|
-|userName|***string***|
-|description|string|
-|isPrivate|boolean|
-|showPost|boolean|
-|showLink|boolean|
-|facebookLink|string|
-|instagramLink|string|
-
-## SQL database
-```sql
 CREATE TABLE users(
-	user_id VARCHAR PRIMARY KEY,
+	user_id SERIAL PRIMARY KEY,
 	username VARCHAR NOT NULL,
 	plan VARCHAR -- ['free', 'pro']
 );
 
 CREATE TABLE users_info(
-	user_id VARCHAR PRIMARY KEY,
+	user_id SERIAL PRIMARY KEY,
 	username VARCHAR NOT NULL,
 	fullname VARCHAR,
 	birthday DATE,
@@ -32,15 +14,15 @@ CREATE TABLE users_info(
 );
 
 CREATE TABLE balance(
-	balance_id VARCHAR PRIMARY KEY,
+	balance_id SERIAL PRIMARY KEY,
 	username VARCHAR NOT NULL,
 	amount VARCHAR NOT NULL,
 	currency VARCHAR -- ['VND', 'USD']
 );
 
 CREATE TABLE transition(
-	transition_id VARCHAR PRIMARY KEY,
-	transition_time DATE,
+	transition_id SERIAL PRIMARY KEY,
+	transition_time TIMESTAMP,
 	sender VARCHAR NOT NULL,
 	reciever VARCHAR NOT NULL,
 	amount VARCHAR,
@@ -48,8 +30,8 @@ CREATE TABLE transition(
 );
 
 CREATE TABLE withdraw(
-	withdraw_id VARCHAR PRIMARY KEY,
-	withdraw_time DATE NOT NULL,
+	withdraw_id SERIAL PRIMARY KEY,
+	withdraw_time TIMESTAMP NOT NULL,
 	user_id VARCHAR,
 	username VARCHAR NOT NULL,
 	amount VARCHAR NOT NULL,
@@ -57,12 +39,10 @@ CREATE TABLE withdraw(
 );
 
 CREATE TABLE deposit(
-	deposit_id VARCHAR PRIMARY KEY,
-	deposit_time DATE NOT NULL,
+	deposit_id SERIAL PRIMARY KEY,
+	deposit_time TIMESTAMP NOT NULL,
 	user_id VARCHAR,
 	username VARCHAR NOT NULL,
 	amount VARCHAR NOT NULL,
 	status VARCHAR
 );
-
-```

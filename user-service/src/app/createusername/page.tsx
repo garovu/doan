@@ -4,19 +4,18 @@ import { authOptions } from "src/app/api/auth/[...nextauth]/route";
 import { getServerSession } from "next-auth";
 import { redirect } from "next/navigation";
 import AddUserForm from "@/components/commons/AddUserForm";
+import getAllUser from "@/lib/getAllUsers";
 
 export interface AddUserProps {}
 
-async function userQuery(userEmail: string) {}
-
-let c: boolean;
 export default async function AddUser(props: AddUserProps) {
   const session = await getServerSession(authOptions);
 
   if (!session) {
     redirect("/");
   }
-  const usernameList: string[] = ["garo", "username"];
+
+  const usernameList: string[] = await getAllUser();
   let isHasUsername;
   let userSession = session.user;
 
@@ -30,27 +29,6 @@ export default async function AddUser(props: AddUserProps) {
       isHasUsername = false;
     }
   });
-
-  console.log(isHasUsername);
-
-  // get username list from firebase
-  // flush read firebase
-  // const usersClSnapshot = await getDocs(usersClRef);
-  // usersClSnapshot.forEach((doc) => {
-  //   // doc.data()  = {
-  //   //     emailVerified: null,
-  //   //     email: 'tamquocchi2002@gmail.com',
-  //   //     name: 'Chu Chu Tuan',
-  //   //     image: 'https://lh3.googleusercontent.com/a/ACg8ocIUPCnXON_ZWcoBjgUV7nF7CSU4nWzTAueICdkvHUbZ=s96-c'
-  //   //   }
-
-  //   if (doc.data().hasOwnProperty("username")) {
-  //     if (doc.data().email === userSession?.email) {
-  //       isHasUsername = true;
-  //     }
-  //     usernameList.push(doc.data().username);
-  //   }
-  // });
 
   if (isHasUsername) {
     // redirect to dashboard

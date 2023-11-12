@@ -7,9 +7,12 @@ import { useSession } from "next-auth/react";
 import AnonyTip from "./AnonyTip";
 import SignInTip from "./SignInTip";
 
-export interface TipProps {}
+export interface TipProps {
+  sender: string;
+  receiver: string;
+}
 
-export default function Tip(props: TipProps) {
+export default function Tip({ sender, receiver }: TipProps) {
   const { data: session, status } = useSession();
   const [amount, setAmount] = useState("10000");
 
@@ -30,8 +33,8 @@ export default function Tip(props: TipProps) {
     return (
       <>
         {TIPFORM}
-        <SignInTip amount={amount} />
-        <AnonyTip amount={amount} />
+        <SignInTip sender={sender} receiver={receiver} amount={amount} />
+        <AnonyTip receiver={receiver} amount={amount} />
       </>
     );
   }
@@ -42,7 +45,7 @@ export default function Tip(props: TipProps) {
       {TIPFORM}
       <p>Sign in to send me private message</p>
       <Button>Sign in</Button>
-      <AnonyTip amount={amount} />
+      <AnonyTip receiver={receiver} amount={amount} />
     </>
   );
 }
